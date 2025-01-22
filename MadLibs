@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string plural1,adjective1,animal,plural2,food,verb,adjective2;
+    
+    cout<<"Provide a plural noun\n";
+    cin>>plural1;
+    cout<<"Provide an adjective\n";
+    cin>>adjective1;
+    cout<<"Provide an animal\n";
+    cin>>animal;
+    cout<<"Provide a plural noun\n";
+    cin>>plural2;
+    cout<<"Provide a food\n";
+    cin>>food;
+    cout<<"Provide a verb\n";
+    cin>>verb;
+    cout<<"Provide an Adjective\n";
+    cin>>adjective2;
+    cout<<"Loading...\n";
+    cout<<"I went to the store to buy some "<<plural1<<" for my "<<adjective1<<" "<<animal<<".\n";
+    cout<<"All they had were "<<plural2<<", so I instead bought some "<<food<<".\n";
+    cout<<"I then "<<adjective2<<" "<<verb<<" to round off the day.\n";
+    
+    
+    
+    
+}
